@@ -1,0 +1,14 @@
+﻿<Window x:Class="TestWPFApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestWPFApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Name="btnSpeak" Content="Speak" Margin="66,54,347,233" Click="btnSpeak_Click"/>
+        <Button Name="btnStop" Content="Stop" Margin="296,54,117,233"/>
+        <TextBlock Name="txtSpokenText" Margin="76,117,107,52" Background="AliceBlue"/>
+    </Grid>
+</Window>
